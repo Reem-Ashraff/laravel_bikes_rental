@@ -14,7 +14,7 @@ return [
     | To learn more: https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
     |
     */
-'allowed_origins' => ['http://localhost:4200'],
+'allowed_origins' => ['http://localhost:4200','https://angular-bikes-rental.vercel.app',],
 
     'paths' => ['api/*', 'sanctum/csrf-cookie'],
 
